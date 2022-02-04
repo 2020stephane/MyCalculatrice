@@ -175,7 +175,6 @@ public class MainActivity extends AppCompatActivity {
                 resultat = 0;
                 nbrope1 = 0;
             }
-
         });
 
         boutonC.setOnClickListener(new View.OnClickListener() {
@@ -186,7 +185,6 @@ public class MainActivity extends AppCompatActivity {
                     number[i] = 0;
                 }
                 resultat = 0;
-
             }
         });
 
@@ -196,7 +194,6 @@ public class MainActivity extends AppCompatActivity {
                 editText2.setText(editText2.getText() + ".");
             }
         });
-
     }
     void saveNumber(char chiffre) {
         temp1 = temp1 + chiffre;
